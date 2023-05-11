@@ -1,14 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T13:48:24.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" etag="-9g72hONN1QEKAUY7aOe" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-11T16:50:58.223Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" etag="lqqkE5HZkpytTIpKG81T" version="21.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1560" dy="408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="pt_M3kR0GjpwDkTq6W2H-0" value="Imovel" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="70" y="50" width="180" height="140" as="geometry" />
+        <mxCell id="pt_M3kR0GjpwDkTq6W2H-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pt_M3kR0GjpwDkTq6W2H-0" target="pt_M3kR0GjpwDkTq6W2H-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="30" />
+              <mxPoint x="580" y="30" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="pt_M3kR0GjpwDkTq6W2H-3" value="+ id_imovel&lt;br&gt;+ id_cliente&lt;br&gt;+ preco : float&lt;br&gt;+ tamanho : float&lt;br&gt;+ detalhes_imovel&lt;br&gt;+ localizacao&lt;br&gt;+ tipo : tipo_imovel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pt_M3kR0GjpwDkTq6W2H-0">
-          <mxGeometry y="26" width="180" height="114" as="geometry" />
+        <mxCell id="pt_M3kR0GjpwDkTq6W2H-0" value="Imovel" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="55" y="50" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pt_M3kR0GjpwDkTq6W2H-3" value="+ id_imovel&lt;br&gt;+ id_cliente&lt;br&gt;+ preco : float&lt;br&gt;+ tamanho_privativo : float&lt;br&gt;+ detalhes_imovel : detalhes_imovel&lt;br&gt;+ localizacao : localizacao&lt;br&gt;+ tipo : tipo_imovel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pt_M3kR0GjpwDkTq6W2H-0">
+          <mxGeometry y="26" width="210" height="114" as="geometry" />
         </mxCell>
         <mxCell id="pt_M3kR0GjpwDkTq6W2H-5" value="Localizacao" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="330" y="50" width="140" height="140" as="geometry">
@@ -72,6 +80,14 @@
               <mxPoint x="250" y="343" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pt_M3kR0GjpwDkTq6W2H-52" value="Contrutura" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="50" width="140" height="100" as="geometry">
+            <mxRectangle x="260" y="50" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pt_M3kR0GjpwDkTq6W2H-53" value="+ id_imovel&lt;br&gt;+ nome&lt;br&gt;+ estado_construcao&lt;br&gt;+ data_entrega" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pt_M3kR0GjpwDkTq6W2H-52">
+          <mxGeometry y="26" width="140" height="74" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
