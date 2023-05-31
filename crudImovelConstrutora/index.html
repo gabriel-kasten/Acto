@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTO</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <select name="type" id="select_type">
+                <option value="imovel" selected>Imóvel</option>
+                <option value="construtora">Construtora</option>
+            </select>
+        </nav>
+    </header>
+    <br>
+    <section>
+        <!-- Form de Construtora -->
+        <!-- <form action="#" method="post">
+            <input type="text" id="input_construtora_nome" placeholder="Nome">
+            <br>
+            <select name="bairro_construtora" id="select_construtora_bairro">
+                <option value="1">Bairro</option>
+                <option value="2">Adhemar Garcia</option>
+                <option value="3">América</option>
+                <option value="4">Anita Garibaldi</option>
+                <option value="5">Atiradores</option>
+                <option value="6">Aventureiro</option>
+                <option value="7">Boa Vista</option>
+                <option value="8">Boehmerwald</option>
+                <option value="9">Bom Retiro</option>
+                <option value="10">Bucarein</option>
+                <option value="11">Centro</option>
+                <option value="12">Comasa</option>
+                <option value="13">Costa e Silva</option>
+                <option value="14">Espinheiros</option>
+                <option value="15">Fátima</option>
+                <option value="16">Floresta</option>
+                <option value="17">Glória</option>
+                <option value="18">Guanabara</option>
+                <option value="19">Iririú</option>
+                <option value="21">Itaum</option>
+                <option value="22">Itinga</option>
+                <option value="23">Parque Guarani</option>
+                <option value="24">Jardim Iririú</option>
+                <option value="25">Jardim Paraíso</option>
+                <option value="26">Jardim Sophia</option>
+                <option value="27">Jarivatuba</option>
+                <option value="28">Jativoca</option>
+                <option value="29">João Costa</option>
+                <option value="30">Morro do Meio</option>
+                <option value="31">Nova Brasília</option>
+                <option value="32">Paranaguamirim</option>
+                <option value="33">Petrópolis</option>
+                <option value="34">Pirabeiraba</option>
+                <option value="35">Profipo</option>
+                <option value="36">Saguaçu</option>
+                <option value="37">Santa Catarina</option>
+                <option value="38">Santo Antônio</option>
+                <option value="39">São Marcos</option>
+                <option value="40">Ulysses Guimarães</option>
+                <option value="41">Vila Cubatão</option>
+                <option value="42">Vila Nova</option>
+                <option value="43">Zona Industrial Norte</option>
+                <option value="44">Zona Industrial Tupy</option>
+            </select>
+            <input type="submit" value="Cadastrar">
+        </form> -->
+
+        <form action="#" method="post">
+            <div>
+                <br>
+                <label for="input_imovel_tamanho_min">Nome do Imóvel</label>
+                <input type="text" name="" id="input_imovel_nome" placeholder="Nome">
+            </div>
+            
+            <div>
+                <br>
+                <label for="input_imovel_tamanho_min">Unidades</label>
+                <input type="number" placeholder="unidades totais">
+                <input type="number" placeholder="unidades vendidas">
+            </div>
+            
+            <div>
+                <br>
+                <label for="input_imovel_tamanho_min">VGV Unidade</label>
+                <input type="number" placeholder="vgv unidade">
+            </div>
+            
+            <div>
+                <br>
+                <label for="input_imovel_tamanho_min">Tamanho</label>
+                <input type="number" id="input_imovel_tamanho_min" placeholder="tamanho min">
+                <input type="number" id="input_imovel_tamanho_max" placeholder="tamanho max">
+            </div>
+            
+            <label for="input_imovel_tamanho_min">Bairro</label>
+            <select name="bairro_imovel" id="select_imovel_bairro">
+                <option value="2">Adhemar Garcia</option>
+                <option value="3">América</option>
+                <option value="4">Anita Garibaldi</option>
+                <option value="5">Atiradores</option>
+                <option value="6">Aventureiro</option>
+                <option value="7">Boa Vista</option>
+                <option value="8">Boehmerwald</option>
+                <option value="9">Bom Retiro</option>
+                <option value="10">Bucarein</option>
+                <option value="11">Centro</option>
+                <option value="12">Comasa</option>
+                <option value="13">Costa e Silva</option>
+                <option value="14">Espinheiros</option>
+                <option value="15">Fátima</option>
+                <option value="16">Floresta</option>
+                <option value="17">Glória</option>
+                <option value="18">Guanabara</option>
+                <option value="19">Iririú</option>
+                <option value="21">Itaum</option>
+                <option value="22">Itinga</option>
+                <option value="23">Parque Guarani</option>
+                <option value="24">Jardim Iririú</option>
+                <option value="25">Jardim Paraíso</option>
+                <option value="26">Jardim Sophia</option>
+                <option value="27">Jarivatuba</option>
+                <option value="28">Jativoca</option>
+                <option value="29">João Costa</option>
+                <option value="30">Morro do Meio</option>
+                <option value="31">Nova Brasília</option>
+                <option value="32">Paranaguamirim</option>
+                <option value="33">Petrópolis</option>
+                <option value="34">Pirabeiraba</option>
+                <option value="35">Profipo</option>
+                <option value="36">Saguaçu</option>
+                <option value="37">Santa Catarina</option>
+                <option value="38">Santo Antônio</option>
+                <option value="39">São Marcos</option>
+                <option value="40">Ulysses Guimarães</option>
+                <option value="41">Vila Cubatão</option>
+                <option value="42">Vila Nova</option>
+                <option value="43">Zona Industrial Norte</option>
+                <option value="44">Zona Industrial Tupy</option>
+            </select>
+
+            <br>
+            <input type="submit">
+        </form>
+    </section>
+</body>
+</html>
